@@ -3,7 +3,7 @@
 }
 
 body {
-
+-webkit-font-smoothing: antialiased;
 
 }
 
@@ -16,7 +16,7 @@ body {
 
 section {
   border-bottom: 2px solid  #96A1A6;
-  height: 50vh;
+  height: 32vh;
   width: 100vw;
 
 }
@@ -47,21 +47,19 @@ font-family: Helvetica;
       background-color: #FFF;
       border-radius: 5px;
       box-shadow: 1px 1px 1px 1px #96A1A6;
-      width: 35vw;
+      width: 37vw;
 
       /* margin-left: 29px; */
 }
 
-#hexTitle {
-  font-size: 7px;
-  text-transform: uppercase;
-}
+
+
 
    .box-container {
     display: flex;
     flex-direction: column;
-    height: 35vh;
-    text-align: center;
+    height: 26vh;
+
   }
 
    .enterHex {
